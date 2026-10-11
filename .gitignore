@@ -1,0 +1,6 @@
+brand/
+.transfer/
+.preview/
+dist/
+__pycache__/
+*.zip

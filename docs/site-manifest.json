@@ -1,0 +1,24 @@
+{
+  "base": "/digiquality-preview/",
+  "origin": "https://douglasopan.github.io",
+  "mode": "approval-preview",
+  "indexable": false,
+  "built": "2026-10-11",
+  "pages": [
+    "",
+    "catalogo/",
+    "produtos/fusiveis/",
+    "produtos/porta-fusiveis/",
+    "produtos/ptc-resetaveis/",
+    "produtos/protecao-tvs-mov-esd/",
+    "produtos/tiristores/",
+    "produtos/ntc-sensores/",
+    "recursos/",
+    "guias/como-especificar-um-fusivel/",
+    "guias/tvs-mov-ou-esd/",
+    "guias/ntc-temperatura-ou-corrente-de-partida/",
+    "empresa/",
+    "contato/",
+    "sobre-esta-previa/"
+  ]
+}

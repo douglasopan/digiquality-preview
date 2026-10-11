@@ -1,0 +1,458 @@
+{
+  "categories": [
+    {
+      "slug": "fusiveis",
+      "title": "Fusíveis",
+      "short": "Fusíveis",
+      "function": "sobrecorrente",
+      "sub": "Proteção contra sobrecorrente",
+      "intro": "Da placa eletrônica à aplicação de potência: encontre a família de fusível e organize as especificações para sua cotação.",
+      "description": "Fusíveis protegem circuitos contra sobrecorrente pela abertura de um elemento fusível. A escolha considera a corrente de operação, a tensão AC ou DC, a capacidade de interrupção, a curva tempo-corrente e o ambiente térmico.",
+      "families": [
+        "Vidro e cerâmico",
+        "Axiais e Micro/Pico",
+        "SMD",
+        "Automotivos ATO, MINI e MAXI",
+        "Automotivos MIDI e MEGA",
+        "Industriais, alarme e ultrarrápidos"
+      ],
+      "search": "fusivel fusiveis 5x20 6x32 rapido retardado vidro ceramica axial micro pico smd automotivo ato mini maxi midi mega industrial alarme ultrarrapido sobrecorrente",
+      "params": [
+        [
+          "Corrente e temperatura",
+          "Corrente normal, partida e temperatura próxima ao fusível."
+        ],
+        [
+          "Tensão e interrupção",
+          "Tensão AC/DC e corrente de curto-circuito prevista."
+        ],
+        [
+          "Atuação",
+          "Curva tempo-corrente e I²t compatíveis com a aplicação."
+        ],
+        [
+          "Dimensão e montagem",
+          "Formato, medidas e tipo de terminação do componente."
+        ]
+      ],
+      "faqs": [
+        [
+          "Posso substituir um fusível apenas pela corrente?",
+          "Não. Dois fusíveis com a mesma corrente nominal podem ter curvas de atuação e capacidades de interrupção diferentes. Tensão, dimensões, temperatura e requisitos do equipamento também precisam ser verificados."
+        ],
+        [
+          "Qual a diferença entre rápido e retardado?",
+          "A característica de atuação descreve como o fusível responde à corrente ao longo do tempo. A opção retardada pode suportar determinados picos de partida, dentro da curva de sua série. A seleção depende do circuito e do datasheet."
+        ]
+      ],
+      "sources": [
+        [
+          "Fuseology Design Guide · Littelfuse",
+          "https://www.littelfuse.com/assetdocs/fuseology-selection-guide?assetguid=d812dff2-1c47-4dc3-bce7-07a4001ddc32",
+          "PDF técnico · edição ©2022"
+        ]
+      ],
+      "guide": "como-especificar-um-fusivel"
+    },
+    {
+      "slug": "porta-fusiveis",
+      "title": "Porta-fusíveis e clips",
+      "short": "Porta-fusíveis e clips",
+      "function": "conexao",
+      "sub": "Conexão e montagem",
+      "intro": "Uma conexão compatível é parte da proteção. Explore suportes para placa, painel e outras formas de montagem.",
+      "description": "Porta-fusíveis e clips realizam a fixação e a conexão elétrica do fusível. A compatibilidade vai além do tamanho: os limites de corrente, tensão, temperatura e dissipação precisam atender à aplicação.",
+      "families": [
+        "Porta-fusíveis para painel",
+        "Porta-fusíveis para placa",
+        "Porta-fusíveis para cabo",
+        "Clips e acessórios"
+      ],
+      "search": "porta fusivel portafusivel clips clip suporte painel placa pcb cabo montagem conexao 5x20 6x32",
+      "params": [
+        [
+          "Compatibilidade física",
+          "Dimensões, formato e terminais do fusível."
+        ],
+        [
+          "Corrente e tensão",
+          "Valores e condições especificados para o suporte."
+        ],
+        [
+          "Montagem",
+          "Painel, placa, cabo e tipo de terminação."
+        ],
+        [
+          "Condição térmica",
+          "Temperatura ambiente, dissipação e proximidade de outras fontes de calor."
+        ]
+      ],
+      "faqs": [
+        [
+          "Um suporte com o mesmo tamanho serve para qualquer fusível?",
+          "Não necessariamente. É preciso conferir a especificação do suporte e do fusível, incluindo corrente, tensão, dissipação e condições térmicas."
+        ],
+        [
+          "Quais dados enviar para cotar um clip?",
+          "Envie o código original, dimensões do fusível, desenho ou descrição da montagem, tipo de terminal, corrente, tensão e quantidade."
+        ]
+      ],
+      "sources": [
+        [
+          "Fuseholder Selection Guide · Littelfuse",
+          "https://www.littelfuse.com/assetdocs/fuseholder-selection-guide?assetguid=e6f2e839-cf96-480b-b61e-b90e27057915",
+          "Guia oficial · data editorial não identificada"
+        ]
+      ],
+      "guide": "como-especificar-um-fusivel"
+    },
+    {
+      "slug": "ptc-resetaveis",
+      "title": "PTC resetáveis",
+      "short": "PTC resetáveis",
+      "function": "sobrecorrente",
+      "sub": "Limitação de sobrecorrente",
+      "intro": "Componentes PPTC que aumentam sua resistência diante de sobrecorrente, com critérios próprios de seleção e recuperação.",
+      "description": "Um dispositivo PPTC limita a corrente ao passar para um estado de maior resistência. Seu comportamento depende da corrente, da temperatura e das condições da aplicação. A recuperação deve ser avaliada conforme a série escolhida.",
+      "families": [
+        "PPTC radiais",
+        "PPTC SMD",
+        "Terminais para bateria",
+        "Famílias POLYFUSE"
+      ],
+      "search": "ptc pptc resetavel resetaveis polyfuse polyswitch ihold itrip radial smd bateria sobrecorrente",
+      "params": [
+        [
+          "Ihold e Itrip",
+          "Corrente de manutenção e disparo nas condições de referência."
+        ],
+        [
+          "Vmax e Imax",
+          "Tensão máxima e corrente máxima de falha especificadas."
+        ],
+        [
+          "Ambiente e atuação",
+          "Temperatura, curva de redução e tempo de resposta."
+        ],
+        [
+          "Resistência e montagem",
+          "Resistência inicial/pós-atuação e encapsulamento."
+        ]
+      ],
+      "faqs": [
+        [
+          "PTC resetável e fusível são equivalentes?",
+          "Não são intercambiáveis automaticamente. Um PPTC limita corrente aumentando a resistência, enquanto um fusível convencional abre seu elemento. Estado de falha, corrente residual e recuperação precisam ser avaliados."
+        ],
+        [
+          "O que muda com a temperatura ambiente?",
+          "As correntes de manutenção e de disparo dependem da temperatura. Verifique as curvas e condições da série; não use apenas o valor nominal de referência."
+        ]
+      ],
+      "sources": [
+        [
+          "PolySwitch PPTC · Littelfuse",
+          "https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-resettable-pptc-devices",
+          "Página oficial · data editorial não informada"
+        ]
+      ],
+      "guide": "como-especificar-um-fusivel"
+    },
+    {
+      "slug": "protecao-tvs-mov-esd",
+      "title": "Proteção TVS, MOV e ESD",
+      "short": "TVS, MOV e ESD",
+      "function": "sobretensao",
+      "sub": "Proteção contra sobretensão",
+      "intro": "Tecnologias para diferentes transientes. Comece pela tensão de trabalho, pelo evento de surto e pela sensibilidade do circuito.",
+      "description": "Diodos TVS, varistores MOV, dispositivos ESD e tubos de descarga a gás atendem diferentes cenários de sobretensão. A seleção depende da tensão residual admissível, da energia ou corrente do evento e das características do circuito protegido.",
+      "families": [
+        "Diodos TVS",
+        "Varistores MOV radiais",
+        "Varistores industriais e SMD",
+        "Arrays e supressores ESD",
+        "PulseGuard",
+        "Tubos de descarga a gás"
+      ],
+      "search": "tvs diodo mov varistor varistores esd gas gdt pulseguard supressor sobretensao surto transiente smd radial capacitancia",
+      "params": [
+        [
+          "Tensão de trabalho",
+          "Tensão contínua e limites de operação do circuito."
+        ],
+        [
+          "Tensão de limitação",
+          "Tensão residual nas condições de ensaio da série."
+        ],
+        [
+          "Capacidade de surto",
+          "Corrente/energia e forma de onda usadas na especificação."
+        ],
+        [
+          "Integridade de sinal",
+          "Capacitância, polaridade, montagem e leiaute da placa."
+        ]
+      ],
+      "faqs": [
+        [
+          "TVS, MOV e proteção ESD fazem a mesma coisa?",
+          "Todos podem participar da proteção contra transientes, mas suas características e aplicações são distintas. A comparação exige considerar o evento, a tensão residual, a capacidade de surto e o circuito."
+        ],
+        [
+          "Posso comparar só a potência de pico?",
+          "Não. A potência e a corrente dependem das condições de ensaio e da forma de onda. Verifique também a tensão de trabalho, a tensão de limitação e o comportamento térmico."
+        ]
+      ],
+      "sources": [
+        [
+          "Diodos TVS · Littelfuse",
+          "https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes",
+          "Página técnica oficial"
+        ],
+        [
+          "Varistores · Littelfuse",
+          "https://www.littelfuse.com/products/overvoltage-protection/varistors",
+          "Página técnica oficial"
+        ],
+        [
+          "ESD de baixa capacitância · série SP4208",
+          "https://www.littelfuse.com/products/overvoltage-protection/tvs-diode-arrays/connectivity-tvs-diode-arrays/sp4208",
+          "Exemplo técnico de fabricante; não confirma oferta pela Digiquality"
+        ]
+      ],
+      "guide": "tvs-mov-ou-esd"
+    },
+    {
+      "slug": "tiristores",
+      "title": "SCR, TRIAC e SIDACtor",
+      "short": "SCR, TRIAC e SIDACtor",
+      "function": "controle sobretensao",
+      "sub": "Controle de potência e proteção",
+      "intro": "Identifique a função primeiro: controle de potência com SCR e TRIAC ou proteção contra sobretensão com SIDACtor.",
+      "description": "SCRs são dispositivos de condução em um sentido; TRIACs permitem controle bidirecional em circuitos AC. SIDACtor é uma família de tiristores de proteção contra sobretensão, com função distinta dos dispositivos de controle de potência.",
+      "families": [
+        "SCR",
+        "TRIAC",
+        "SIDACtor de proteção"
+      ],
+      "search": "tiristor tiristores scr triac sidactor teccor controle potencia gate comutacao crowbar sobretensao",
+      "params": [
+        [
+          "Função do componente",
+          "Controle de potência ou proteção contra sobretensão."
+        ],
+        [
+          "Tensão e corrente",
+          "Limites elétricos em regime e nas condições transitórias."
+        ],
+        [
+          "Disparo e comutação",
+          "Gate, dv/dt e parâmetros próprios de cada família."
+        ],
+        [
+          "Montagem e calor",
+          "Encapsulamento, terminais e requisitos térmicos."
+        ]
+      ],
+      "faqs": [
+        [
+          "SIDACtor substitui um TRIAC?",
+          "Não automaticamente. São componentes com funções diferentes. SIDACtor é uma família de proteção contra sobretensão; a comparação deve partir do código e do circuito."
+        ],
+        [
+          "Basta comparar tensão e corrente?",
+          "Não. Os parâmetros de disparo, comutação, surto e dissipação, além do encapsulamento, precisam ser compatíveis com a aplicação."
+        ]
+      ],
+      "sources": [
+        [
+          "Gating, Latching and Holding of SCRs and TRIACs · Littelfuse",
+          "https://www.littelfuse.com/assetdocs/gating-latching-and-holding-of-scrs-and-triacs-application-note?assetguid=0a78b99f-fe06-4a32-b2aa-4d45f60ca536",
+          "Nota técnica AN1002 · edição ©2008 · referência conceitual"
+        ],
+        [
+          "SIDACtor Pxxx0FNL · Littelfuse",
+          "https://www.littelfuse.com/products/overvoltage-protection/sidactor-protection-thyristors/high-exposure-surge-protection/pxxx0fnl",
+          "Exemplo técnico de fabricante; não confirma oferta pela Digiquality"
+        ]
+      ],
+      "guide": "tvs-mov-ou-esd"
+    },
+    {
+      "slug": "ntc-sensores",
+      "title": "NTC e sensores de temperatura",
+      "short": "NTC e sensores",
+      "function": "temperatura",
+      "sub": "Temperatura e corrente de partida",
+      "intro": "Medição térmica e limitação de corrente de partida exigem especificações diferentes, mesmo quando ambas usam termistores NTC.",
+      "description": "A resistência de um termistor NTC diminui com o aumento da temperatura. Alguns dispositivos são projetados para medição térmica; outros, para limitar a corrente de partida. Especifique a função antes de comparar componentes.",
+      "families": [
+        "NTC para corrente de partida",
+        "Termistores para medição",
+        "Referências históricas SP e TDC"
+      ],
+      "search": "ntc termistor sensor sensores temperatura inrush corrente partida sp tdc r25 beta resistencias thermal termico",
+      "params": [
+        [
+          "Função na aplicação",
+          "Medição de temperatura ou limitação de corrente de partida."
+        ],
+        [
+          "Resistência e curva",
+          "R25, tolerância, beta ou curva resistência-temperatura."
+        ],
+        [
+          "Condições elétricas",
+          "Corrente contínua, energia do evento e requisitos da aplicação."
+        ],
+        [
+          "Condições térmicas",
+          "Faixa de temperatura, resposta, montagem e resfriamento."
+        ]
+      ],
+      "faqs": [
+        [
+          "Um NTC de medição pode limitar a corrente de partida?",
+          "Não assuma essa equivalência. Os dispositivos são dimensionados para funções diferentes. Corrente contínua, energia e construção precisam atender à aplicação."
+        ],
+        [
+          "Resistência e tamanho identificam um substituto?",
+          "Não. Curva resistência-temperatura, tolerância, limites de corrente e energia, montagem e comportamento térmico também precisam ser comparados."
+        ]
+      ],
+      "sources": [
+        [
+          "Sensores de temperatura · Littelfuse",
+          "https://www.littelfuse.com/products/sensors/temperature-sensors",
+          "Página técnica oficial"
+        ],
+        [
+          "NTC Inrush Current Limiters · TDK",
+          "https://www.tdk-electronics.tdk.com/en/530038/products/product-catalog/protection-devices/current-protection/ntc-inrush-current-limiters",
+          "Referência técnica; não implica representação comercial"
+        ]
+      ],
+      "guide": "ntc-temperatura-ou-corrente-de-partida"
+    }
+  ],
+  "guides": [
+    {
+      "slug": "como-especificar-um-fusivel",
+      "title": "Como especificar um fusível para cotação",
+      "tag": "Sobrecorrente",
+      "read": "4 min",
+      "intro": "Corrente nominal é só o começo. Reúna os dados que ajudam a identificar a família correta e a comparar uma possível substituição.",
+      "sections": [
+        [
+          "Comece pelo código original",
+          "Se o equipamento já usa um fusível, registre o part number completo, o fabricante e as marcações. Informe as dimensões e a montagem. Letras e sufixos podem identificar características importantes da série."
+        ],
+        [
+          "Descreva as condições elétricas",
+          "Informe corrente normal, tensão AC ou DC, corrente de partida e duração do evento. Quando conhecido, inclua o curto-circuito disponível e os requisitos de interrupção. Não presuma que dois componentes da mesma corrente nominal sejam equivalentes."
+        ],
+        [
+          "Considere atuação e temperatura",
+          "Compare a curva tempo-corrente, o I²t e as condições térmicas. Temperatura próxima ao componente, dissipação e montagem influenciam a aplicação. Rápido ou retardado é uma característica que deve ser analisada com a curva da série."
+        ],
+        [
+          "Monte uma solicitação objetiva",
+          "Envie código, quantidade, aplicação, corrente, tensão, dimensões, atuação esperada e prazo desejado. Se algum dado não estiver disponível, diga o que é conhecido e identifique a informação que ainda falta."
+        ],
+        [
+          "Valide antes de substituir",
+          "A seleção final exige o datasheet vigente e validação no circuito. Este roteiro organiza a consulta; não é uma aprovação técnica de substituição."
+        ]
+      ],
+      "sources": [
+        [
+          "Fuseology Design Guide · Littelfuse",
+          "https://www.littelfuse.com/assetdocs/fuseology-selection-guide?assetguid=d812dff2-1c47-4dc3-bce7-07a4001ddc32",
+          "PDF técnico · edição ©2022"
+        ]
+      ],
+      "related": "fusiveis"
+    },
+    {
+      "slug": "tvs-mov-ou-esd",
+      "title": "TVS, MOV ou proteção ESD?",
+      "tag": "Sobretensão",
+      "read": "3 min",
+      "intro": "A tecnologia de proteção começa pelo evento que seu circuito precisa suportar. Um número de potência, isoladamente, não resolve a escolha.",
+      "sections": [
+        [
+          "Defina o evento e o ponto protegido",
+          "Qual transiente pode chegar ao circuito? Onde a proteção será instalada? A tensão de operação e o limite suportado pelo componente protegido orientam a análise. Um barramento de alimentação e uma interface de dados têm necessidades diferentes."
+        ],
+        [
+          "Compare nas mesmas condições",
+          "Verifique tensão de trabalho, tensão de limitação, corrente ou energia suportada e forma de onda usada no ensaio. Valores de pico medidos com formas de onda distintas não devem ser comparados como se fossem equivalentes."
+        ],
+        [
+          "Observe o impacto no sinal",
+          "Em interfaces rápidas, capacitância e leiaute podem afetar a integridade do sinal. Considere a polaridade e o caminho da corrente de descarga, além das especificações do dispositivo de proteção."
+        ],
+        [
+          "Leve o contexto à cotação",
+          "Informe o código desejado ou descreva tensão de operação, circuito, tipo de transiente, interface, montagem e quantidade. A compatibilidade deve ser validada com documentação vigente e ensaios adequados."
+        ]
+      ],
+      "sources": [
+        [
+          "Diodos TVS · Littelfuse",
+          "https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes",
+          "Página técnica oficial"
+        ],
+        [
+          "Varistores · Littelfuse",
+          "https://www.littelfuse.com/products/overvoltage-protection/varistors",
+          "Página técnica oficial"
+        ],
+        [
+          "ESD de baixa capacitância · SP4208",
+          "https://www.littelfuse.com/products/overvoltage-protection/tvs-diode-arrays/connectivity-tvs-diode-arrays/sp4208",
+          "Exemplo de parâmetros técnicos, sem indicação de oferta"
+        ]
+      ],
+      "related": "protecao-tvs-mov-esd"
+    },
+    {
+      "slug": "ntc-temperatura-ou-corrente-de-partida",
+      "title": "NTC para temperatura ou corrente de partida?",
+      "tag": "Temperatura",
+      "read": "3 min",
+      "intro": "A sigla é a mesma, mas a função muda os critérios. Descubra quais informações reunir para cada aplicação.",
+      "sections": [
+        [
+          "O que caracteriza um NTC",
+          "A resistência diminui quando a temperatura aumenta. Essa relação pode ser usada na medição térmica; em componentes projetados para isso, o comportamento também é aproveitado na limitação da corrente de partida."
+        ],
+        [
+          "Para medir temperatura",
+          "Compare resistência de referência, tolerância, beta ou curva R-T, faixa térmica, resposta e montagem. A resistência em um único ponto não descreve toda a curva do sensor."
+        ],
+        [
+          "Para limitar corrente de partida",
+          "Considere resistência a frio, corrente contínua permitida, energia do evento e condições de resfriamento. O funcionamento depende da temperatura do componente; uma religação deve ser avaliada nas condições reais da aplicação."
+        ],
+        [
+          "Evite equivalências por aparência",
+          "Não selecione um substituto apenas pela resistência ou pelo diâmetro. Envie código, aplicação, quantidade e condições elétricas/térmicas. Confirme todos os parâmetros no datasheet vigente antes de usar o componente."
+        ]
+      ],
+      "sources": [
+        [
+          "Thermistor Technology · Littelfuse",
+          "https://www.littelfuse.com/design-center/training-and-education/temperature-sensor-knowledge-center/thermistor-info/thermistor-technology",
+          "Referência conceitual oficial"
+        ],
+        [
+          "NTC Inrush Current Limiters · TDK",
+          "https://www.tdk-electronics.tdk.com/download/2982800/f5be4fca9d1f66204de9cf37891e5265/ntc-thermistors-icl-an.pdf",
+          "Nota de aplicação · edição 2013 · referência conceitual"
+        ]
+      ],
+      "related": "ntc-sensores"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Preview: page-level noindex is authoritative. Crawling remains allowed so bots can read it.
+User-agent: *
+Allow: /
